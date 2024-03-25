@@ -15,10 +15,10 @@ The script is easily customizable so you can add your own payloads aswell
 
 ### Installation
 ```
-sudo wget https://raw.githubusercontent.com/shroudri/printRevshells/main/printRevshells -O /usr/local/bin/printRevshells
-sudo chmod +x /usr/local/bin/printRevshells
+sudo wget https://raw.githubusercontent.com/Anja-dhnd/revshells/main/revshells -O /usr/local/bin/revshells
+sudo chmod +x /usr/local/bin/revshells
 username=$(whoami)
-sudo chown $username /usr/local/bin/printRevshells
+sudo chown $username /usr/local/bin/revshells
 
 ```
 
@@ -28,7 +28,7 @@ By default, **if no arguments are provided**, the script will use 9001 as the de
 
 However, if you want to specify your own port, you can execute the script as follows.
 ```
-printRevshells 1234
+revshells 1234
 ```
 
 Which generates the following output:
